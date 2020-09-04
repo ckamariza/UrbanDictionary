@@ -5,22 +5,27 @@ Author: Christiane Kamariza
   Sorted by  most thumbs up or down. There is a progress indication while making the Urban Dictionary API call.
 
 ## Dependencies and Code Resources
-  Retrofit
-  Dagger
-  Dagger Hilt
-  Kotlin Coroutines
-  Espresso
-  Junit
-  Mockito
+    Retrofit
+    Dagger
+    Dagger Hilt
+    Kotlin Coroutines
+    Espresso
+    Junit
+    Mockito
 
-## UI Resources
-   Androidx Material Design : Recycler View, Card View, Swipe Refresh Layout
+## UI Look and Feel
+    Androidx Material Design
+    Recycler View
+    Card View
+    Swipe Refresh Layout
+    Vector drawables
+    Bottom Navigation
 
 ## Architecture
-   MVVM
-   Repository pattern
-   Room
-   LiveData
+    MVVM
+    Repository pattern
+    Room
+    LiveData
 
 ## Running Application:
 IDE: Android Studio 4.0
