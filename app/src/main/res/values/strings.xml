@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">UrbanDictionary</string>
+  <string name="sort_up">Sort up</string>
+  <string name="sort_down">Sort down</string>
+  <string name="title_search">Search</string>
+  <string name="search_hint">Search…</string>
+    <string name="tools_rating_text">100500</string>
+  <string name="tools_wat_meaning">The only [proper] [response] to something that makes absolutely [no sense].</string>
+  <string name="tools_wat_text">Wat</string>
+</resources>

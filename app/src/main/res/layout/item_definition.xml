@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_margin_dimension"
+    app:cardCornerRadius="@dimen/layout_margin_dimension"
+    app:cardElevation="@dimen/layout_margin_dimension">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/layout_margin_dimension">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="@dimen/title_text_size"
+        android:padding="@dimen/text_view_padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/tools_wat_text" />
+
+    <TextView
+        android:id="@+id/definitionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_dimension"
+        android:padding="@dimen/text_view_padding"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/design_default_color_on_secondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleView"
+        tools:text="@string/tools_wat_meaning" />
+
+    <TextView
+        android:id="@+id/thumbsUpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_dimension"
+        android:padding="@dimen/text_view_padding"
+        android:drawableStart="@drawable/ic_thumb_up"
+        android:drawablePadding="@dimen/layout_margin_dimension"
+        android:gravity="start|center_vertical"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/definitionView"
+        tools:text="@string/tools_rating_text" />
+
+    <TextView
+        android:id="@+id/thumbsDownView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_dimension"
+        android:padding="@dimen/text_view_padding"
+        android:layout_marginTop="@dimen/layout_margin_dimension"
+        android:drawableStart="@drawable/ic_thumb_down"
+        android:drawablePadding="@dimen/layout_margin_dimension"
+        android:gravity="start|center_vertical"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintStart_toEndOf="@+id/thumbsUpView"
+        app:layout_constraintTop_toBottomOf="@+id/definitionView"
+        tools:text="@string/tools_rating_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
